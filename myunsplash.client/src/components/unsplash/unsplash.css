@@ -1,0 +1,56 @@
+.unsplash-container {
+	position: relative;
+	border-radius: 16px;
+}
+
+.image-container {
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 16px;
+
+	img {
+		width: 100%;
+		border-radius: 16px;
+	}
+}
+
+.image-hover {
+	filter: brightness(50%);
+}
+
+.delete-btn {
+	position: absolute;
+	top: 18px;
+	right: 18px;
+	border-radius: 38px;
+	border: 1px solid #eb5757;
+	background-color: transparent;
+	color: #eb5757;
+
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-transform: lowercase;
+}
+
+.delete-btn:hover {
+	border: 2px solid #eb5757;
+	font-weight: bolder;
+}
+
+.delete-btn:focus {
+	outline: none;
+}
+
+.unsplash-label {
+	position: absolute;
+	bottom: 18px;
+	left: 18px;
+	width: 100%;
+	color: #fff;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}

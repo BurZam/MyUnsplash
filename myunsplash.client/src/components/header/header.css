@@ -1,0 +1,30 @@
+.header-container {
+	display: flex;
+    align-items: center;
+	width: 100%;
+}
+
+.search-container {
+    display: flex;
+	border-radius: 12px;
+	border: 1px solid #bdbdbd;
+	box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.1);
+	padding: 15px 16px;
+    margin-left: 15px;
+}
+
+.search-container-focused {
+	border: 1px solid #000000;
+}
+
+.search-input {
+	border: transparent;
+}
+
+.search-input:focus {
+	outline: none;
+}
+
+.cta-button {
+    margin-left: auto;
+}

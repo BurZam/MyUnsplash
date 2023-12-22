@@ -1,0 +1,19 @@
+.body-container {
+    margin-top: 75px;
+}
+.columns-container {
+    display: flex;
+    gap: 7px;
+}
+
+.column-1 {
+    flex: 1;
+}
+
+.column-2 {
+    flex: 1;
+}
+
+.column-3 {
+    flex: 1;
+}
